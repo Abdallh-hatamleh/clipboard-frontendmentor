@@ -210,6 +210,11 @@ footer img {
     margin-bottom: 2px;
 }
 
+.desktop-logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .pic-n-text {
     display: flex;
     flex-direction: column;
@@ -226,29 +231,100 @@ footer img {
         flex-direction: row;
         column-gap: 1rem;
     }
-    p {
-        width: 580px !important;    
-    }
     
     .desktop-section1 {
         display: flex;
-        flex-direction: row;
-        position: relative;
+        flex-direction: row;    
         justify-content: flex-start;
         align-self: flex-start;
         margin-top: 20px;
+        column-gap: 80px;
+        align-items: start;
+    }
+
+    .desktop-section1 .img-c {
+        position: relative;
+        width: 60vw;
+    }
+
+    .desktop-section1 img {
+        position: absolute;
+        left: -25px;
+    }
+    .desktop-section1 p {
+        text-align: start;
+    }
+
+    .fifth-p {
+        width: 600px;
+    }
+
+    .sixth-p {
+        width: 500px;
+    }
+
+    .desktop-section1-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .desktop-section1-1 p {
+        width: 350px;
     }
 
     .desktop-section2 {
         display: flex;
         flex-direction: row;
-        position: relative;
-        justify-content: flex-start;
-        align-self: flex-start;
+        justify-content: space-around;
+        align-items: start;
         margin-top: 20px;
+        align-self: stretch;
     }
 
+    .pic-n-text  p{
+        width: 350px;
+    }
+
+    .pic-n-text svg {
+        height: 40px;
+    }
+    .pic-n-text h1 {
+        margin-top: 10px;
+    }
     .desktop-section1 img {
         
     }
+
+    .desktop-logos {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .tenth-p {
+        width: 600px;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer-p {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 12px 2px;
+    }
+
+    .footer-p p {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:900px)
+{
+    
 }
